@@ -1,0 +1,36 @@
+{
+  "name": "fayulogger-transport-pg",
+  "version": "0.0.1",
+  "description": "Transport for save logs into PostgreSQL database",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/vows test/* --spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ymnuk/FAYULogger-transport-pg-js.git"
+  },
+  "keywords": [
+    "amqp",
+    "amqplib",
+    "pg",
+    "postgres",
+    "postgresql",
+    "fayulogger",
+    "fayulogger-transport"
+  ],
+  "author": "Ymnuk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ymnuk/FAYULogger-transport-pg-js/issues"
+  },
+  "homepage": "https://github.com/Ymnuk/FAYULogger-transport-pg-js#readme",
+  "devDependencies": {
+    "vows": "*"
+  },
+  "dependencies": {
+    "pg": "*",
+    "fayulogger": "git+https://github.com/Ymnuk/FAYULogger-js.git",
+    "lodash.clonedeep": "*"
+  }
+}
